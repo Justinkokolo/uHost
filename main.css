@@ -16,7 +16,6 @@ body {
 div > a {
   text-decoration: none;
 }
-
 .section-title {
   color: green;
   text-align: center;
@@ -35,52 +34,60 @@ div > a {
 .plan__hig {
   background: #19b84c;
   color: white;
+  box-shadow: 2px 2px 2px 2px rgb(43, 99, 43);
+  padding: 3px;
 }
 
+.plan__title {
+  background: white;
+  color: #19b84c;
+  box-shadow: 2px 2px 2px 2px rgb(43, 99, 43);
+}
+
+.plan__features {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.plan__feature {
+  margin: 8px 0px;
+}
 #product_overview h1 {
   color: white;
   font-family: "Anton", sans-serif;
 }
-.main-header {
-  width: 100%;
-  background: green;
-  padding: 8px 16px;
-  vertical-align: middle;
-}
-.main-nav__item {
-  display: inline-block;
-  margin: 0 16px;
-}
-.main-header > div {
-  display: inline-block;
-}
-.main-nav {
-  display: inline-block;
-  text-align: right;
-  width: calc(100% - 54px);
-}
-.main-nav__items {
-  margin: 0;
-  padding: 0;
-  list-style: none;
+
+#key_features {
+  background: rgb(219, 54, 54);
+  margin-top: 80px;
+  padding: 16px;
 }
 
-.main-nav__items a {
-  text-decoration: none;
-  color: #000;
-  font-weight: bold;
+#key_features_.section-title {
+  color: white;
+  margin: 32px;
 }
-.main-nav__items a:hover,
-.main-nav__items a:active {
-  color: azure;
-  border-bottom: 5px solid oldlace;
+
+.key_feature {
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
-.main-nav__item_cta a {
-  color: aliceblue;
-  padding: 8px 16px;
-  border-radius: 4px;
-  background-color: red;
+.key_feature_element {
+  display: inline-block;
+  width: 33%;
+  text-align: center;
 }
-.main-nav__item_cta a:hover {
-  border-bottom: none;
+.key_feature_image {
+  background: #ffeced;
+  width: 128px;
+  height: 128px;
+  border: 2px solid #424242;
+  border-radius: 50%;
+  margin: auto;
 }
+
+
+
+
